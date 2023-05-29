@@ -1,0 +1,107 @@
+body{
+    font-family: Roboto;
+    background-color: #F1F6F9;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+
+header .nav-title{
+    color: #0C134F;
+    background-color: #AFD3E2;
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+nav{
+    background-color: #394867;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 20px 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fff;
+    white-space: nowrap;
+}
+nav ul li a:hover{
+    color: #D4ADFC;
+    
+}
+.page-title{
+    font-size: 24px;
+    color: #5C469C;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.page-subtitle{
+    font-weight: 18px;
+    color: #1D267D;
+    padding: 0px 40px 20px 40px;
+    text-align: center;
+}
+.products, .homepage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+.products .card{
+    border: 1px solid #19A7CE;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.products .card .card-image, .products .card .card-image img{
+    width: 100%;
+}
+.products .card .card-image img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.products .card .card-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212A3E;
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+}
+.products .card .card-content .card-title{
+    font-size: 18px;
+}
+.products .card .card-content .card-price{
+    font-size: 20px;
+    color: #ACBCFF;
+}
+
+.homepage .list-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #19A7CE;
+    margin-bottom: 20px;
+}
+.homepage .lists{
+    list-style-type: circle;
+}
+.homepage .lists li{
+    margin-bottom: 8px;
+    color: #146C94;
+}
